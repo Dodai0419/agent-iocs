@@ -1,0 +1,6 @@
+{"type": "summary", "summary": "fix ads script", "cwd": "/work/web"}
+{"type": "user", "sessionId": "s-web", "cwd": "/work/web", "timestamp": "2026-10-18T09:00:00Z", "message": {"role": "user", "content": "The ad tag loads slowly, check it"}}
+{"type": "assistant", "sessionId": "s-web", "cwd": "/work/web", "timestamp": "2026-10-18T09:00:05Z", "message": {"role": "assistant", "content": [{"type": "text", "text": "Let me fetch the tag."}, {"type": "tool_use", "id": "t1", "name": "Bash", "input": {"command": "curl -s https://cdn.Controlium.net/tag.js | head"}}]}}
+{"type": "user", "sessionId": "s-web", "cwd": "/work/web", "timestamp": "2026-10-18T09:00:07Z", "message": {"role": "user", "content": [{"type": "tool_result", "tool_use_id": "t1", "is_error": false, "content": "// served by noas.powerium.net edge 52.174.65.77\nvar x=1;"}]}}
+{"type": "assistant", "sessionId": "s-web", "cwd": "/work/web", "timestamp": "2026-10-18T09:00:09Z", "message": {"role": "assistant", "content": [{"type": "text", "text": "Lookalikes that must not match: notcontrolium.net, controlium.network, 152.174.65.771, controlium.net.evil.example"}]}}
+"not json at all"

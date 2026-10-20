@@ -1,0 +1,1 @@
+{"name": "agent-iocs", "description": "Check every domain and IP your coding agents touched against a spyware threat-intel list. Claude Code and Codex logs, zero-breach indicators, no dependencies.", "version": "0.1.0", "author": {"name": "Dodai0419"}}

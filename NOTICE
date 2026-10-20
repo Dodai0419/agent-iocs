@@ -1,0 +1,48 @@
+agent-iocs
+Copyright 2026 Dodai0419
+
+This repository is licensed under the Apache License 2.0 (see LICENSE).
+
+It contains work derived from:
+
+1. interplains/zero-breach (https://github.com/interplains/zero-breach), commit 576711b
+   Copyright 2026 archivegenocide.com, Apache License 2.0.
+   The indicator-file loader and the boundary-aware matching rules in agent_iocs.py
+   (load_iocs, _positions, search) are adapted from scan/adint_scan/iocs.py.
+   iocs/adfection_iocs.txt is copied unchanged from that repository. It is
+   indicator data dedicated to the public domain under CC0 1.0; see iocs/LICENSE.md
+   for the license and the researchers who published the indicators.
+   This project is not affiliated with or endorsed by zero-breach or by any
+   organisation named in the indicator data.
+
+2. jatechan/ai-data-extractor (https://github.com/jatechan/ai-data-extractor), commit c598c47
+   The Claude Code and Codex session parsing in agent_iocs.py follows
+   extractors/claude_code.py, extractors/codex.py and extractors/common.py.
+   Licensed under the MIT License:
+
+   MIT License
+
+   Copyright (c) 2026 Dave
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+A result of "no known indicator found" is not a clean bill of health. Anyone with
+real reason for concern should contact the Access Now Digital Security Helpline
+(https://www.accessnow.org/help/) or the Amnesty International Security Lab
+(https://securitylab.amnesty.org/).

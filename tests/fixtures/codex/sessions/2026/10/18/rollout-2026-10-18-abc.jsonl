@@ -1,0 +1,4 @@
+{"type": "session_meta", "timestamp": "2026-10-18T11:00:00Z", "payload": {"id": "cx-1", "cwd": "/work/api"}}
+{"type": "response_item", "timestamp": "2026-10-18T11:00:01Z", "payload": {"type": "message", "role": "user", "content": [{"type": "input_text", "text": "why is DNS slow?"}]}}
+{"type": "response_item", "timestamp": "2026-10-18T11:00:04Z", "payload": {"type": "function_call", "name": "shell", "arguments": "{\"cmd\": \"dig qa-noas.powerium.net\"}"}}
+{"type": "response_item", "timestamp": "2026-10-18T11:00:06Z", "payload": {"type": "message", "role": "assistant", "content": [{"type": "output_text", "text": "Resolver timed out."}]}}

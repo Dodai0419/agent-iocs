@@ -1,0 +1,2 @@
+{"type": "user", "sessionId": "s-clean", "cwd": "/work/clean", "timestamp": "2026-10-18T10:00:00Z", "message": {"role": "user", "content": "add a unit test"}}
+{"type": "assistant", "sessionId": "s-clean", "cwd": "/work/clean", "timestamp": "2026-10-18T10:00:03Z", "message": {"role": "assistant", "content": [{"type": "text", "text": "Done, see https://example.com/docs"}]}}

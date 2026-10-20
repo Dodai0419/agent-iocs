@@ -1,0 +1,1 @@
+{"name": "agent-iocs", "owner": {"name": "Dodai0419"}, "plugins": [{"name": "agent-iocs", "source": "./", "description": "Check every domain and IP your coding agents touched against a spyware threat-intel list. Claude Code and Codex logs, zero-breach indicators, no dependencies."}]}
